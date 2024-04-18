@@ -124,3 +124,4 @@ C:\Users\prdb\Desktop\Xofei'sProjects\TaskFromDemoExam\TaskFromDemoExam\obj\Debu
 C:\Users\prdb\Desktop\Xofei'sProjects\TaskFromDemoExam\TaskFromDemoExam\obj\Debug\net8.0\TaskFrom.3F3E1092.Up2Date
 C:\Users\prdb\Desktop\Xofei'sProjects\TaskFromDemoExam\TaskFromDemoExam\obj\Debug\net8.0\TaskFromDemoExam.genruntimeconfig.cache
 C:\Users\prdb\Desktop\Xofei'sProjects\TaskFromDemoExam\TaskFromDemoExam\obj\Debug\net8.0\ref\TaskFromDemoExam.dll
+C:\Users\prdb\Desktop\Xofei'sProjects\TaskFromDemoExam\TaskFromDemoExam\obj\Debug\net8.0\TaskFromDemoExam.sourcelink.json

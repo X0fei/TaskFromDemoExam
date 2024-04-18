@@ -3,7 +3,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="TaskFromDemoExam.MainWindow"
-        Title="TaskFromDemoExam">
-    Welcome to Avalonia!
+        x:CompileBindings="False"
+		x:Class="TaskFromDemoExam.MainWindow"
+        Title="Вход">
+	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+		<TextBox Name="Login" HorizontalAlignment="Center" Watermark="Логин"/>
+		<TextBox Name="Password" HorizontalAlignment="Center" Watermark="Пароль"/>
+		<Button Click="LogIn" HorizontalAlignment="Center">
+			<TextBlock>
+				Вход
+			</TextBlock>
+		</Button>
+		<Button Click="GoToGuestMain" HorizontalAlignment="Center">
+			<TextBlock>
+				Гость
+			</TextBlock>
+		</Button>
+	</StackPanel>
 </Window>

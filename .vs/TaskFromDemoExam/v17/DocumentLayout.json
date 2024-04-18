@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\usermain.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:usermain.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\adminmain.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:adminmain.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\usermain.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:usermain.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\adminmain.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:adminmain.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\prdb\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\taskfromdemoexam\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\MainWindow.axaml",
               "RelativeDocumentMoniker": "MainWindow.axaml",
@@ -34,15 +54,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\MainWindow.axaml.cs",
               "RelativeToolTip": "MainWindow.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T11:48:00.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\Users.cs",
+              "RelativeDocumentMoniker": "Users.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\Users.cs",
+              "RelativeToolTip": "Users.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:24:00.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "6b2645b5-03e2-4917-88cb-78d214214b30",
+        "Display": 1,
+        "X": -660,
+        "Y": 282,
+        "Width": 1680,
+        "Height": 809,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminMain.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\AdminMain.axaml",
+              "RelativeDocumentMoniker": "AdminMain.axaml",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\AdminMain.axaml",
+              "RelativeToolTip": "AdminMain.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T12:11:10.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminMain.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\AdminMain.axaml.cs",
+              "RelativeDocumentMoniker": "AdminMain.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\AdminMain.axaml.cs",
+              "RelativeToolTip": "AdminMain.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:11:10.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMain.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\UserMain.axaml",
+              "RelativeDocumentMoniker": "UserMain.axaml",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\UserMain.axaml",
+              "RelativeToolTip": "UserMain.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T12:17:03.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserMain.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\UserMain.axaml.cs",
+              "RelativeDocumentMoniker": "UserMain.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\UserMain.axaml.cs",
+              "RelativeToolTip": "UserMain.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:17:03.134Z",
               "EditorCaption": ""
             }
           ]
