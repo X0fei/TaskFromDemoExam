@@ -14,7 +14,7 @@
 				Вход
 			</TextBlock>
 		</Button>
-		<Button Click="GoToGuestMain" HorizontalAlignment="Center">
+		<Button Click="GusetLogIn" HorizontalAlignment="Center">
 			<TextBlock>
 				Гость
 			</TextBlock>

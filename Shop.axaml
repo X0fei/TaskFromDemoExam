@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:CompileBindings="False"
+		x:Class="TaskFromDemoExam.Shop"
+        Title="Главная">
+	<StackPanel>
+		<TextBlock Name="UserName" Text="{Binding username}"/>
+		<Button Click="Exit" HorizontalAlignment="Center">
+			<TextBlock>
+				Выйти
+			</TextBlock>
+		</Button>
+		<Button Click="Exit" HorizontalAlignment="Center">
+			<TextBlock>
+				Добавить товар
+			</TextBlock>
+		</Button>
+		<ListBox Name="ShoppingCart">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel>
+						<TextBlock Text="{Binding name}"/>
+						<TextBlock Text="{Binding category}"/>
+						<TextBlock Text="{Binding quantity}"/>
+						<TextBlock Text="{Binding measureUnit}"/>
+						<TextBlock Text="{Binding price}"/>
+						<TextBlock Text="{Binding description}"/>
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</StackPanel>
+</Window>

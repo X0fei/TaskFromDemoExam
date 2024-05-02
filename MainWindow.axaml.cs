@@ -11,42 +11,29 @@ namespace TaskFromDemoExam
         }
         public void LogIn(object sender, RoutedEventArgs args)
         {
-            foreach (Users user in Lists.Users)
+            foreach (Users user in DataLists.Users)
             {
                 if (user.login == Login.Text)
                 {
                     if (user.password == Password.Text)
                     {
-                        int id = Lists.Users.IndexOf(user);
-                        if (user.role == "Admin")
-                        {
-                            GoToAdminMain(id);
-                        }
-                        else
-                        {
-                            GoToUserMain(id);
-                        }
+                        int id = DataLists.Users.IndexOf(user);
+                        GoToShop(id);
                     }
                 }
             }
         }
 
-        public void GoToAdminMain(int id)
+        public void GoToShop(int id)
         {
-            AdminMain adminMain = new AdminMain(id);
+            Shop adminMain = new Shop(id);
             adminMain.Show();
             Close();
         }
-        public void GoToUserMain(int id)
+        public void GusetLogIn(object sender, RoutedEventArgs args)
         {
-            UserMain userMain = new UserMain(id);
-            userMain.Show();
-            Close();
-        }
-        public void GoToGuestMain(object sender, RoutedEventArgs args)
-        {
-            UserMain guestMain = new UserMain();
-            guestMain.Show();
+            Shop adminMain = new Shop();
+            adminMain.Show();
             Close();
         }
     }
