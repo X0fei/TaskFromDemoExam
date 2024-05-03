@@ -21,14 +21,33 @@
 		<ListBox Name="ShoppingCart">
 			<ListBox.ItemTemplate>
 				<DataTemplate>
-					<StackPanel>
-						<TextBlock Text="{Binding name}"/>
-						<TextBlock Text="{Binding category}"/>
-						<TextBlock Text="{Binding quantity}"/>
-						<TextBlock Text="{Binding measureUnit}"/>
-						<TextBlock Text="{Binding price}"/>
-						<TextBlock Text="{Binding description}"/>
-					</StackPanel>
+					<Border BorderBrush="Black" BorderThickness="1">
+						<Grid ColumnDefinitions="200, *, 120">
+							<Border Grid.Column="0" Margin="15" BorderBrush="Black" BorderThickness="1">
+								<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">
+									Фото
+								</TextBlock>
+							</Border>
+							<Border Grid.Column="1" Margin="15" BorderBrush="Black" BorderThickness="1">
+								<StackPanel Margin="10">
+									<TextBlock FontWeight="Black" Text="{Binding name}"/>
+									<Grid ColumnDefinitions="Auto, Auto" RowDefinitions="Auto, Auto, Auto">
+										<TextBlock Grid.Column="0" Grid.Row="0" Text="Описание товара"/>
+										<TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding description}"/>
+										<TextBlock Grid.Column="0" Grid.Row="1" Text="Производитель:"/>
+										<TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding manufacturer}"/>
+										<TextBlock Grid.Column="0" Grid.Row="2" Text="Цена:"/>
+										<TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding price}"/>
+									</Grid>
+								</StackPanel>
+							</Border>
+							<Border Grid.Column="3" Margin="15" BorderBrush="Black" BorderThickness="1">
+								<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">
+									Наличие на складе
+								</TextBlock>
+							</Border>
+						</Grid>
+					</Border>
 				</DataTemplate>
 			</ListBox.ItemTemplate>
 		</ListBox>

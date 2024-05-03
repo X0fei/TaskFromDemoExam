@@ -38,6 +38,7 @@ namespace TaskFromDemoExam
             {
                 name = "Молоко",
                 category = "Молочные продукты",
+                manufacturer = "\"Весёлая коровка\"",
                 quantity = 200,
                 measureUnit = "1 л",
                 price = 89,
@@ -47,6 +48,7 @@ namespace TaskFromDemoExam
             {
                 name = "Хлеб",
                 category = "Хлебобулочные изделия",
+                manufacturer = "\"Усердная мельница\"",
                 quantity = 1000,
                 measureUnit = "1 шт.",
                 price = 33,
@@ -56,6 +58,7 @@ namespace TaskFromDemoExam
             {
                 name = "Стиральный порошок",
                 category = "Бытовая химия",
+                manufacturer = "\"Чистый дом\"",
                 quantity = 176,
                 measureUnit = "2 кг",
                 price = 303,

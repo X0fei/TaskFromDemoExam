@@ -1,5 +1,10 @@
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using Avalonia.Markup.Xaml;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace TaskFromDemoExam
 {
