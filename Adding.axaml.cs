@@ -1,0 +1,13 @@
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Markup.Xaml;
+
+namespace TaskFromDemoExam;
+
+public partial class Adding : Window
+{
+    public Adding()
+    {
+        InitializeComponent();
+    }
+}

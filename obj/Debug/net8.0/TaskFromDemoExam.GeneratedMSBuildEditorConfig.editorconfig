@@ -17,6 +17,9 @@ build_property.ProjectDir = C:\Users\prdb\Desktop\Xofei'sProjects\TaskFromDemoEx
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/prdb/Desktop/Xofei'sProjects/TaskFromDemoExam/TaskFromDemoExam/Adding.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/prdb/Desktop/Xofei'sProjects/TaskFromDemoExam/TaskFromDemoExam/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

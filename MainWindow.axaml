@@ -7,6 +7,9 @@
 		x:Class="TaskFromDemoExam.MainWindow"
         Title="Вход">
 	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+		<TextBlock HorizontalAlignment="Center" IsVisible="False" Foreground="Red" Name="ErrorLogIn">
+			Неверный логин или пароль
+		</TextBlock>
 		<TextBox Name="Login" HorizontalAlignment="Center" Watermark="Логин"/>
 		<TextBox Name="Password" HorizontalAlignment="Center" Watermark="Пароль"/>
 		<Button Click="LogIn" HorizontalAlignment="Center">

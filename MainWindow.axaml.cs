@@ -18,13 +18,14 @@ namespace TaskFromDemoExam
         {
             foreach (Users user in DataLists.Users)
             {
-                if (user.login == Login.Text)
+                if (user.login == Login.Text && user.password == Password.Text)
                 {
-                    if (user.password == Password.Text)
-                    {
-                        int id = DataLists.Users.IndexOf(user);
-                        GoToShop(id);
-                    }
+                    int id = DataLists.Users.IndexOf(user);
+                    GoToShop(id);
+                }
+                else
+                {
+                    ErrorLogIn.IsVisible = true;
                 }
             }
         }
