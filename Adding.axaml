@@ -5,5 +5,12 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="TaskFromDemoExam.Adding"
         Title="Adding">
-	
+	<StackPanel>
+		<TextBlock>
+			Добавление товара
+		</TextBlock>
+		<Grid ColumnDefinitions="*, *">
+			<TextBlock Grid.Column="0" Grid.Row="0" Text="Название товара:"/>
+		</Grid>
+	</StackPanel>
 </Window>

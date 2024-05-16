@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj": {}
+    "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj": {
+    "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
+        "projectUniqueName": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
         "projectName": "TaskFromDemoExam",
-        "projectPath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
-        "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\obj\\",
+        "projectPath": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
+        "packagesPath": "C:\\Users\\class_student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\class_student\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\prdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\class_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
