@@ -15,12 +15,17 @@ public partial class Shop : Window
         InitializeComponent();
         UserName.Text = "Гость";
         ShoppingCart.ItemsSource = DataLists.Products.ToList();
+        AddButton.IsVisible = false;
     }
     public Shop(int id)
     {
         InitializeComponent();
         UserName.Text = DataLists.Users[id].username;
         ShoppingCart.ItemsSource = DataLists.Products.ToList();
+        if (DataLists.Users[id].role != "Admin")
+        {
+            AddButton.IsVisible = false;
+        }
     }
     public void Exit(object sender, RoutedEventArgs args)
     {
@@ -30,6 +35,8 @@ public partial class Shop : Window
     }
     public void ProductAdd(object sender, RoutedEventArgs args)
     {
-
+        Adding adding = new Adding();
+        adding.Show();
+        Close();
     }
 }

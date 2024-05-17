@@ -20,8 +20,8 @@ namespace TaskFromDemoExam
             {
                 if (user.login == Login.Text && user.password == Password.Text)
                 {
-                    int id = DataLists.Users.IndexOf(user);
-                    GoToShop(id);
+                    DataLists.currentId = DataLists.Users.IndexOf(user);
+                    GoToShop();
                 }
                 else
                 {
@@ -30,16 +30,16 @@ namespace TaskFromDemoExam
             }
         }
 
-        public void GoToShop(int id)
+        public void GoToShop()
         {
-            Shop adminMain = new Shop(id);
-            adminMain.Show();
+            Shop shop = new Shop(DataLists.currentId);
+            shop.Show();
             Close();
         }
         public void GusetLogIn(object sender, RoutedEventArgs args)
         {
-            Shop adminMain = new Shop();
-            adminMain.Show();
+            Shop shop = new Shop();
+            shop.Show();
             Close();
         }
     }

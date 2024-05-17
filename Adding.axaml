@@ -2,15 +2,33 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="550"
         x:Class="TaskFromDemoExam.Adding"
         Title="Adding">
 	<StackPanel>
 		<TextBlock>
 			Добавление товара
 		</TextBlock>
-		<Grid ColumnDefinitions="*, *">
-			<TextBlock Grid.Column="0" Grid.Row="0" Text="Название товара:"/>
+		<Grid Margin="50 30" ColumnDefinitions="* *" RowDefinitions="* * * * * * * *">
+			<TextBlock Grid.Column="0" Grid.Row="0" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Название:"/>
+			<TextBox Grid.Column="1" Grid.Row="0" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Name"/>
+			<TextBlock Grid.Column="0" Grid.Row="1" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Категория:"/>
+			<TextBox Grid.Column="1" Grid.Row="1" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Category"/>
+			<TextBlock Grid.Column="0" Grid.Row="2" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Количество:"/>
+			<TextBox Grid.Column="1" Grid.Row="2" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Quantity"/>
+			<TextBlock Grid.Column="0" Grid.Row="3" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Единица измерения:"/>
+			<TextBox Grid.Column="1" Grid.Row="3" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="MeasureUnit"/>
+			<TextBlock Grid.Column="0" Grid.Row="4" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Поставщик:"/>
+			<TextBox Grid.Column="1" Grid.Row="4" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Manufacturer"/>
+			<TextBlock Grid.Column="0" Grid.Row="5" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Стоимость:"/>
+			<TextBox Grid.Column="1" Grid.Row="5" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Price"/>
+			<TextBlock Grid.Column="0" Grid.Row="6" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Картинка:"/>
+			<TextBox Grid.Column="1" Grid.Row="6" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+			<TextBlock Grid.Column="0" Grid.Row="7" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Описание:"/>
+			<TextBox Grid.Column="1" Grid.Row="7" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Description"/>
 		</Grid>
+		<Button HorizontalAlignment="Center" Click="ProductAdd">
+			Добавить
+		</Button>
 	</StackPanel>
 </Window>

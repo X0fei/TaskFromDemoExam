@@ -10,10 +10,10 @@ namespace TaskFromDemoExam
     {
         public string name { get; set; }
         public string category { get; set; }
-        public int quantity { get; set; }
+        public string quantity { get; set; }
         public string measureUnit { get; set; }
         public string manufacturer { get; set; }
-        public double price { get; set; }
+        public string price { get; set; }
         public string description { get; set; }
     }
 }
