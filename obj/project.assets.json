@@ -4373,11 +4373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
+      "projectUniqueName": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
       "projectName": "TaskFromDemoExam",
-      "projectPath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
+      "projectPath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
       "packagesPath": "C:\\Users\\prdb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\obj\\",
+      "outputPath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\prdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4448,7 +4448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

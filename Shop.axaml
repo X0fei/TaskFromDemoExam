@@ -43,9 +43,12 @@
 									</StackPanel>
 								</Border>
 								<Border Grid.Column="3" Margin="15" BorderBrush="Black" BorderThickness="1">
-									<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">
-										Наличие на складе
-									</TextBlock>
+									<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+										<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">
+											На складе:
+										</TextBlock>
+										<TextBlock Name="Quantity" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding quantity}"/>
+									</StackPanel>
 								</Border>
 							</Grid>
 						</Border>

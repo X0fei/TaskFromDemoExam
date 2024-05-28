@@ -15,6 +15,10 @@ public partial class Shop : Window
         InitializeComponent();
         UserName.Text = "Гость";
         ShoppingCart.ItemsSource = DataLists.Products.ToList();
+        foreach (Products product in DataLists.Products)
+        {
+            product
+        }
         AddButton.IsVisible = false;
     }
     public Shop(int id)

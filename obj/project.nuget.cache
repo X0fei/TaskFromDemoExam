@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CFks2rnSxHNVqt1cyWzPdJgfu+CW3FHx5gAd3P12weCCBOTNsEu5+06tDVYSblyqx8dlpb6W1s4fyERN9LH7QQ==",
+  "dgSpecHash": "3q/Qy+LeAe+haiyKmL7fJOmF+lJUMcy6Ac7339xOGL2JvWpmzJIGAqP/WHLu3FhPjX1r58ALQ7C/A2mdPGW27w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
+  "projectFilePath": "C:\\Users\\prdb\\Desktop\\Xofei'sProjects\\TaskFromDemoExam\\TaskFromDemoExam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prdb\\.nuget\\packages\\avalonia\\11.0.10\\avalonia.11.0.10.nupkg.sha512",
     "C:\\Users\\prdb\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",
