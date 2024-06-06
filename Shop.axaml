@@ -18,6 +18,7 @@
 				Добавить товар
 			</TextBlock>
 		</Button>
+		<TextBlock Name="ItemQuantity"/>
 		<ScrollViewer>
 			<ListBox Height="450" Name="ShoppingCart">
 				<ListBox.ItemTemplate>
