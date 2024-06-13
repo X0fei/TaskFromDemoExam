@@ -22,13 +22,20 @@
 			<TextBox Grid.Column="1" Grid.Row="4" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Manufacturer"/>
 			<TextBlock Grid.Column="0" Grid.Row="5" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Стоимость:"/>
 			<TextBox Grid.Column="1" Grid.Row="5" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Price"/>
-			<TextBlock Grid.Column="0" Grid.Row="6" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Картинка:"/>
-			<TextBox Grid.Column="1" Grid.Row="6" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
-			<TextBlock Grid.Column="0" Grid.Row="7" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Описание:"/>
-			<TextBox Grid.Column="1" Grid.Row="7" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Description"/>
+			<TextBlock Grid.Column="0" Grid.Row="6" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Описание:"/>
+			<TextBox Grid.Column="1" Grid.Row="6" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Description"/>
+			<TextBlock Grid.Column="0" Grid.Row="7" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Картинка:"/>
+			<Button Grid.Column="1" Grid.Row="7" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+				<TextBlock>
+					Добавить картинку
+				</TextBlock>
+			</Button>
 		</Grid>
-		<Button HorizontalAlignment="Center" Click="ProductAdd">
+		<Button Name="Add" HorizontalAlignment="Center" Click="ProductAdd">
 			Добавить
+		</Button>
+		<Button Name="Edit" HorizontalAlignment="Center" Click="ProductEdit">
+			Редактировать
 		</Button>
 	</StackPanel>
 </Window>

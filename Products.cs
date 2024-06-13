@@ -8,6 +8,7 @@ namespace TaskFromDemoExam
 {
     public class Products
     {
+        public int id { get; set; }
         public string name { get; set; }
         public string category { get; set; }
         public string quantity { get; set; }

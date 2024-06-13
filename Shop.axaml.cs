@@ -1,5 +1,6 @@
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using System;
@@ -48,6 +49,13 @@ public partial class Shop : Window
     {
         Adding adding = new Adding();
         adding.Show();
+        Close();
+    }
+    public void Edit(object? sender, PointerReleasedEventArgs e)
+    {
+        DataLists.currentProductId = ShoppingCart.SelectedIndex;
+        Adding editWindow = new Adding(DataLists.currentProductId);
+        editWindow.Show();
         Close();
     }
 }

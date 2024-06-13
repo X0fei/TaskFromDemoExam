@@ -36,6 +36,7 @@ namespace TaskFromDemoExam
         {
             new Products()
             {
+                id = 0,
                 name = "Молоко",
                 category = "Молочные продукты",
                 manufacturer = "\"Весёлая коровка\"",
@@ -46,6 +47,7 @@ namespace TaskFromDemoExam
             },
             new Products()
             {
+                id = 1,
                 name = "Хлеб",
                 category = "Хлебобулочные изделия",
                 manufacturer = "\"Усердная мельница\"",
@@ -56,6 +58,7 @@ namespace TaskFromDemoExam
             },
             new Products()
             {
+                id = 2,
                 name = "Стиральный порошок",
                 category = "Бытовая химия",
                 manufacturer = "\"Чистый дом\"",
@@ -65,6 +68,7 @@ namespace TaskFromDemoExam
                 description = "Пастеризованное, производится из нормализованного молока."
             }
         };
-        public static int currentId;
+        public static int currentUserId;
+        public static int currentProductId;
     }
 }

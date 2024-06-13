@@ -20,7 +20,7 @@ namespace TaskFromDemoExam
             {
                 if (user.login == Login.Text && user.password == Password.Text)
                 {
-                    DataLists.currentId = DataLists.Users.IndexOf(user);
+                    DataLists.currentUserId = DataLists.Users.IndexOf(user);
                     GoToShop();
                 }
                 else
@@ -32,7 +32,7 @@ namespace TaskFromDemoExam
 
         public void GoToShop()
         {
-            Shop shop = new Shop(DataLists.currentId);
+            Shop shop = new Shop(DataLists.currentUserId);
             shop.Show();
             Close();
         }

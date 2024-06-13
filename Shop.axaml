@@ -20,7 +20,7 @@
 		</Button>
 		<TextBlock Name="ItemQuantity"/>
 		<ScrollViewer>
-			<ListBox Height="450" Name="ShoppingCart">
+			<ListBox PointerReleased="Edit" Height="450" Name="ShoppingCart">
 				<ListBox.ItemTemplate>
 					<DataTemplate>
 						<Border BorderBrush="Black" BorderThickness="1">
