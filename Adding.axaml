@@ -25,7 +25,8 @@
 			<TextBlock Grid.Column="0" Grid.Row="6" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Описание:"/>
 			<TextBox Grid.Column="1" Grid.Row="6" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Description"/>
 			<TextBlock Grid.Column="0" Grid.Row="7" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Картинка:"/>
-			<Button Grid.Column="1" Grid.Row="7" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+			<Image Name="ProductImage" Grid.Column="1" Grid.Row="7"/>
+			<Button Click="AddImage" Grid.Column="1" Grid.Row="7" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center">
 				<TextBlock>
 					Добавить картинку
 				</TextBlock>

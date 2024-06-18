@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Avalonia.Media.Imaging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,7 @@ namespace TaskFromDemoExam
         public string manufacturer { get; set; }
         public string price { get; set; }
         public string description { get; set; }
+        public string fileName { get; set; }
+        public Bitmap ProductImage { get { return new Bitmap(fileName); } set { } }
     }
 }

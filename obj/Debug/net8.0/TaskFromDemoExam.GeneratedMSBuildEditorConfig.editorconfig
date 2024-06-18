@@ -13,18 +13,18 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskFromDemoExam
-build_property.ProjectDir = C:\Users\class_student\Desktop\Xofei'sProjects\TaskFromDemoExam\
+build_property.ProjectDir = C:\Users\Class_Student\Desktop\Xofei's projects\TaskFromDemoExam\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/class_student/Desktop/Xofei'sProjects/TaskFromDemoExam/Adding.axaml]
+[C:/Users/Class_Student/Desktop/Xofei's projects/TaskFromDemoExam/Adding.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/class_student/Desktop/Xofei'sProjects/TaskFromDemoExam/App.axaml]
+[C:/Users/Class_Student/Desktop/Xofei's projects/TaskFromDemoExam/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/class_student/Desktop/Xofei'sProjects/TaskFromDemoExam/MainWindow.axaml]
+[C:/Users/Class_Student/Desktop/Xofei's projects/TaskFromDemoExam/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/class_student/Desktop/Xofei'sProjects/TaskFromDemoExam/Shop.axaml]
+[C:/Users/Class_Student/Desktop/Xofei's projects/TaskFromDemoExam/Shop.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

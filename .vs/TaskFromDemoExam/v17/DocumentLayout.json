@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\",
+  "WorkspaceRootPath": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\adding.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:adding.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\shop.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:shop.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\adding.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:adding.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\datalists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:datalists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\shop.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\shop.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:shop.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\adding.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:adding.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\adding.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:adding.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\shop.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:shop.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\datalists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:datalists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027s projects\\taskfromdemoexam\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|c:\\users\\class_student\\desktop\\xofei\u0027sprojects\\taskfromdemoexam\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{0494F1C9-AB16-4A35-B0B7-627A31677B0F}|TaskFromDemoExam.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +50,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\MainWindow.axaml",
               "RelativeDocumentMoniker": "MainWindow.axaml",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\MainWindow.axaml",
               "RelativeToolTip": "MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-18T11:48:01.971Z",
@@ -62,11 +62,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\MainWindow.axaml.cs",
               "RelativeToolTip": "MainWindow.axaml.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Users.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Users.cs",
               "RelativeDocumentMoniker": "Users.cs",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Users.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Users.cs",
               "RelativeToolTip": "Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +88,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DataLists.cs",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\DataLists.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\DataLists.cs",
               "RelativeDocumentMoniker": "DataLists.cs",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\DataLists.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\DataLists.cs",
               "RelativeToolTip": "DataLists.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAQwEcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,22 +103,22 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Products.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Products.cs",
               "RelativeDocumentMoniker": "Products.cs",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Products.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Products.cs",
               "RelativeToolTip": "Products.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAhwBMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T09:31:49.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Adding.axaml",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Adding.axaml",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Adding.axaml",
               "RelativeDocumentMoniker": "Adding.axaml",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Adding.axaml",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Adding.axaml",
               "RelativeToolTip": "Adding.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-16T10:41:49.698Z",
@@ -128,11 +128,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Adding.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Adding.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Adding.axaml.cs",
               "RelativeDocumentMoniker": "Adding.axaml.cs",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Adding.axaml.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Adding.axaml.cs",
               "RelativeToolTip": "Adding.axaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCsAAAAFAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAawC4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T10:41:49.597Z",
               "EditorCaption": ""
@@ -156,15 +156,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Shop.axaml",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Shop.axaml",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Shop.axaml",
               "RelativeDocumentMoniker": "Shop.axaml",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Shop.axaml",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Shop.axaml",
               "RelativeToolTip": "Shop.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-06T11:22:46.369Z",
@@ -172,11 +172,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Shop.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Shop.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Shop.axaml.cs",
               "RelativeDocumentMoniker": "Shop.axaml.cs",
-              "ToolTip": "C:\\Users\\class_student\\Desktop\\Xofei\u0027sProjects\\TaskFromDemoExam\\Shop.axaml.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\Xofei\u0027s projects\\TaskFromDemoExam\\Shop.axaml.cs",
               "RelativeToolTip": "Shop.axaml.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowDoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -2,6 +2,20 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using SkiaSharp;
+using Avalonia.Media;
+using Avalonia.Platform.Storage;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Drawing;
+using Avalonia.Media.Imaging;
+using Bitmap = Avalonia.Media.Imaging.Bitmap;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Avalonia.Platform;
+using System.Text.Unicode;
 
 namespace TaskFromDemoExam;
 
@@ -23,6 +37,13 @@ public partial class Adding : Window
         Price.Text = DataLists.Products[id].price;
         Description.Text = DataLists.Products[id].description;
         Add.IsVisible = false;
+    }
+    public async void AddImage(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        OpenFileDialog openFileDialog = new OpenFileDialog();
+        var topLevel = await openFileDialog.ShowAsync(this);
+        DataLists.Products[DataLists.currentProductId].fileName = String.Join("", topLevel);
+        ProductImage.Source = new Bitmap(DataLists.Products[DataLists.currentProductId].fileName);
     }
     public void ProductAdd(object sender, RoutedEventArgs args)
     {
