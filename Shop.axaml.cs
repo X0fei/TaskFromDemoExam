@@ -29,10 +29,10 @@ public partial class Shop : Window
         ItemQuantity.Text = $"{ShoppingCart.ItemCount} из {DataLists.Products.Count}";
         AddButton.IsVisible = false;
     }
-    public Shop(int id)
+    public Shop(int? id)
     {
         InitializeComponent();
-        UserName.Text = DataLists.Users[id].username;
+        UserName.Text = DataLists.Users[Convert.ToInt32(id)].username;
         foreach (Products product in DataLists.Products)
         {
             if (product.fileName == null)
@@ -43,13 +43,14 @@ public partial class Shop : Window
         }
         ShoppingCart.ItemsSource = DataLists.Products.ToList();
         ItemQuantity.Text = $"{ShoppingCart.ItemCount} из {DataLists.Products.Count}";
-        if (DataLists.Users[id].role != "Admin")
+        if (DataLists.Users[Convert.ToInt32(id)].role != "Admin")
         {
             AddButton.IsVisible = false;
         }
     }
     public void Exit(object sender, RoutedEventArgs args)
     {
+        DataLists.currentUserId = null;
         MainWindow mainWindow = new MainWindow();
         mainWindow.Show();
         Close();
@@ -62,9 +63,13 @@ public partial class Shop : Window
     }
     public void Edit(object? sender, PointerReleasedEventArgs e)
     {
-        DataLists.currentProductId = ShoppingCart.SelectedIndex;
-        Adding editWindow = new Adding(DataLists.currentProductId);
-        editWindow.Show();
-        Close();
+        int id = Convert.ToInt32(DataLists.currentUserId);
+        if (DataLists.Users[id].role == "Admin" && DataLists.currentUserId != null)
+        {
+            DataLists.currentProductId = ShoppingCart.SelectedIndex;
+            Adding editWindow = new Adding(Convert.ToInt32(DataLists.currentProductId));
+            editWindow.Show();
+            Close();
+        }
     }
 }

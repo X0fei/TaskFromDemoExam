@@ -37,8 +37,8 @@ public partial class Adding : Window
         MeasureUnit.Text = DataLists.Products[id].measureUnit;
         Price.Text = DataLists.Products[id].price;
         Description.Text = DataLists.Products[id].description;
-        fileName = DataLists.Products[DataLists.currentProductId].fileName;
-        ProductImage.Source = new Bitmap(DataLists.Products[DataLists.currentProductId].fileName);
+        fileName = DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].fileName;
+        ProductImage.Source = new Bitmap(DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].fileName);
         Add.IsVisible = false;
     }
     public async void AddImage(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -61,20 +61,22 @@ public partial class Adding : Window
             description = Description.Text,
             fileName = this.fileName
         });
+        DataLists.currentProductId = null;
         Shop shop = new Shop(DataLists.currentUserId);
         shop.Show();
         Close();
     }
     public void ProductEdit(object sender, RoutedEventArgs args)
     {
-        DataLists.Products[DataLists.currentProductId].name = Name.Text;
-        DataLists.Products[DataLists.currentProductId].category = Category.Text;
-        DataLists.Products[DataLists.currentProductId].manufacturer = Manufacturer.Text;
-        DataLists.Products[DataLists.currentProductId].quantity = Quantity.Text;
-        DataLists.Products[DataLists.currentProductId].measureUnit = MeasureUnit.Text;
-        DataLists.Products[DataLists.currentProductId].price = Price.Text;
-        DataLists.Products[DataLists.currentProductId].description = Description.Text;
-        DataLists.Products[DataLists.currentProductId].fileName = this.fileName;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].name = Name.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].category = Category.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].manufacturer = Manufacturer.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].quantity = Quantity.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].measureUnit = MeasureUnit.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].price = Price.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].description = Description.Text;
+        DataLists.Products[Convert.ToInt32(DataLists.currentProductId)].fileName = this.fileName;
+        DataLists.currentProductId = null;
         Shop shop = new Shop(DataLists.currentUserId);
         shop.Show();
         Close();

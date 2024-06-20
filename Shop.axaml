@@ -8,7 +8,7 @@
         Title="Главная">
 	<StackPanel>
 		<TextBlock HorizontalAlignment="Right" Name="UserName" Text="{Binding username}"/>
-		<Button Click="Exit" HorizontalAlignment="Center">
+		<Button Click="Exit" HorizontalAlignment="Right">
 			<TextBlock>
 				Выйти
 			</TextBlock>

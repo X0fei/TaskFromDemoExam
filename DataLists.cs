@@ -68,7 +68,7 @@ namespace TaskFromDemoExam
                 description = "Пастеризованное, производится из нормализованного молока."
             }
         };
-        public static int currentUserId;
-        public static int currentProductId;
+        public static int? currentUserId;
+        public static int? currentProductId;
     }
 }
