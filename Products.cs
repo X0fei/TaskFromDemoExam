@@ -18,6 +18,6 @@ namespace TaskFromDemoExam
         public string price { get; set; }
         public string description { get; set; }
         public string fileName { get; set; }
-        public Bitmap ProductImage { get { return new Bitmap(fileName); } set { } }
+        public Bitmap productImage { get { return new Bitmap(fileName); } set { } }
     }
 }

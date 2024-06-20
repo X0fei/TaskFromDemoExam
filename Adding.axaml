@@ -9,7 +9,7 @@
 		<TextBlock>
 			Добавление товара
 		</TextBlock>
-		<Grid Margin="50 30" ColumnDefinitions="* *" RowDefinitions="* * * * * * * *">
+		<Grid Margin="50 30" ColumnDefinitions="* *" RowDefinitions="* * * * * * * * *">
 			<TextBlock Grid.Column="0" Grid.Row="0" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Название:"/>
 			<TextBox Grid.Column="1" Grid.Row="0" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Name"/>
 			<TextBlock Grid.Column="0" Grid.Row="1" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Категория:"/>
@@ -25,12 +25,12 @@
 			<TextBlock Grid.Column="0" Grid.Row="6" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Описание:"/>
 			<TextBox Grid.Column="1" Grid.Row="6" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Name="Description"/>
 			<TextBlock Grid.Column="0" Grid.Row="7" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Картинка:"/>
-			<Image Name="ProductImage" Grid.Column="1" Grid.Row="7"/>
 			<Button Click="AddImage" Grid.Column="1" Grid.Row="7" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center">
 				<TextBlock>
 					Добавить картинку
 				</TextBlock>
 			</Button>
+			<Image Name="ProductImage" Grid.Column="1" Grid.Row="8" Margin="10" Width="175" Height="175" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 		</Grid>
 		<Button Name="Add" HorizontalAlignment="Center" Click="ProductAdd">
 			Добавить

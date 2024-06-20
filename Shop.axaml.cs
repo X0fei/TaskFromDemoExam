@@ -3,6 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using Avalonia.Media.Imaging;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,15 +17,15 @@ public partial class Shop : Window
     {
         InitializeComponent();
         UserName.Text = "Гость";
-        ShoppingCart.ItemsSource = DataLists.Products.ToList();
         foreach (Products product in DataLists.Products)
         {
-            int quantity = Convert.ToInt32(product.quantity);
-            if (quantity == 0)
+            if (product.fileName == null)
             {
-                
+                product.fileName = AppDomain.CurrentDomain.BaseDirectory + "/assets/no_picture.png";
+                product.productImage = new Bitmap(product.fileName);
             }
         }
+        ShoppingCart.ItemsSource = DataLists.Products.ToList();
         ItemQuantity.Text = $"{ShoppingCart.ItemCount} из {DataLists.Products.Count}";
         AddButton.IsVisible = false;
     }
@@ -32,6 +33,14 @@ public partial class Shop : Window
     {
         InitializeComponent();
         UserName.Text = DataLists.Users[id].username;
+        foreach (Products product in DataLists.Products)
+        {
+            if (product.fileName == null)
+            {
+                product.fileName = AppDomain.CurrentDomain.BaseDirectory + "/assets/no_picture.png";
+                product.productImage = new Bitmap(product.fileName);
+            }
+        }
         ShoppingCart.ItemsSource = DataLists.Products.ToList();
         ItemQuantity.Text = $"{ShoppingCart.ItemCount} из {DataLists.Products.Count}";
         if (DataLists.Users[id].role != "Admin")

@@ -21,6 +21,7 @@ namespace TaskFromDemoExam;
 
 public partial class Adding : Window
 {
+    string fileName = AppDomain.CurrentDomain.BaseDirectory + "/assets/no_picture.png";
     public Adding()
     {
         InitializeComponent();
@@ -36,14 +37,16 @@ public partial class Adding : Window
         MeasureUnit.Text = DataLists.Products[id].measureUnit;
         Price.Text = DataLists.Products[id].price;
         Description.Text = DataLists.Products[id].description;
+        fileName = DataLists.Products[DataLists.currentProductId].fileName;
+        ProductImage.Source = new Bitmap(DataLists.Products[DataLists.currentProductId].fileName);
         Add.IsVisible = false;
     }
     public async void AddImage(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         OpenFileDialog openFileDialog = new OpenFileDialog();
         var topLevel = await openFileDialog.ShowAsync(this);
-        DataLists.Products[DataLists.currentProductId].fileName = String.Join("", topLevel);
-        ProductImage.Source = new Bitmap(DataLists.Products[DataLists.currentProductId].fileName);
+        fileName = String.Join("", topLevel);
+        ProductImage.Source = new Bitmap(fileName);
     }
     public void ProductAdd(object sender, RoutedEventArgs args)
     {
@@ -55,7 +58,8 @@ public partial class Adding : Window
             quantity = Quantity.Text,
             measureUnit = MeasureUnit.Text,
             price = Price.Text,
-            description = Description.Text
+            description = Description.Text,
+            fileName = this.fileName
         });
         Shop shop = new Shop(DataLists.currentUserId);
         shop.Show();
@@ -70,6 +74,7 @@ public partial class Adding : Window
         DataLists.Products[DataLists.currentProductId].measureUnit = MeasureUnit.Text;
         DataLists.Products[DataLists.currentProductId].price = Price.Text;
         DataLists.Products[DataLists.currentProductId].description = Description.Text;
+        DataLists.Products[DataLists.currentProductId].fileName = this.fileName;
         Shop shop = new Shop(DataLists.currentUserId);
         shop.Show();
         Close();
